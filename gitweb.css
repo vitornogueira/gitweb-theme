@@ -1,0 +1,635 @@
+@-webkit-keyframes haha {
+    50% { color: #09F; }
+}
+
+.star-wars {
+    float: right;
+    margin-right: 10px;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 5px;
+    font-family: Courier New, monospace;
+    text-shadow: 1px 1px 1px #FFF;
+    -webkit-animation-name: haha;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin: 68px 0 0 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+i { font-style: normal; }
+
+a {
+    color: #0099FF;
+    text-decoration: none;
+}
+
+a:visited, a:active { color: #0099FF; }
+
+a:hover { text-decoration: underline; }
+
+.cntrl {
+    border: dashed #aaaaaa;
+    border-width: 1px;
+    padding: 0px 2px 0px 2px;
+    margin:    0px 2px 0px 2px;
+}
+
+.logo {
+    float: right;
+    margin-top: 4px;
+    border-width: 0px;
+}
+
+.avatar { vertical-align: middle; }
+
+.list .avatar { border-style: none; }
+
+.page_header {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    height: 35px;
+    padding: 0.5% 1%;
+    font-size: 1.5em;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FEFEFE), to(#DDD));
+    background-image: -webkit-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: -moz-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: -o-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: linear-gradient(#FEFEFE 0%, #DDD 100%);
+    line-height: 35px;
+    border-bottom: 1px solid #CCC;
+    color: #333;
+}
+
+.page_header a:visited { color: #0099FF; }
+
+.page_header a:hover { text-decoration: underline; }
+
+.page_nav { padding: 8px; }
+
+.page_nav {
+    font-size: 1.4em;
+    line-height: 20px;
+}
+
+.page_path {
+    padding: 8px;
+    font-weight: bold;
+    border: solid #d9d8d1;
+    border-width: 0px 0px 1px;
+}
+
+.page_footer {
+    height: 17px;
+    padding: 0.5% 1%;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FEFEFE), to(#DDD));
+    background-image: -webkit-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: -moz-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: -o-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: linear-gradient(#FEFEFE 0%, #DDD 100%);
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+.page_footer_text {
+    float: left;
+    color: #555555;
+    font-size: 1.4em;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #BBB;
+}
+
+#generating_info {
+    margin: 4px;
+    font-size: smaller;
+    text-align: center;
+    color: #505050;
+}
+
+.page_body {
+    padding: 8px;
+    font-family: monospace;
+}
+
+.title,
+.title {
+    display: block;
+    padding: 0.5% 1%;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FEFEFE), to(#DDD));
+    background-image: -webkit-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: -moz-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: -o-linear-gradient(#FEFEFE 0%, #DDD 100%);
+    background-image: linear-gradient(#FEFEFE 0%, #DDD 100%);
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.4em;
+}
+
+.readme { padding: 8px; }
+
+.title:hover { background-color: #d9d8d1; }
+
+.title_text {
+    padding: 6px 0px;
+    border: solid #d9d8d1;
+    border-width: 0px 0px 1px;
+    font-family: monospace;
+}
+
+.log_body { padding: 8px 8px 8px 150px; }
+
+.age {
+    position: relative;
+    float: left;
+    width: 142px;
+    font-style: italic;
+}
+
+.signoff { color: #888888; }
+
+.log_link {
+    padding: 0px 8px;
+    font-size: 70%;
+    font-style: normal;
+    position: relative;
+    float: left;
+    width: 136px;
+}
+
+.list_head {
+    padding: 6px 8px 4px;
+    border: solid #d9d8d1;
+    border-width: 1px 0px 0px;
+    font-style: italic;
+}
+
+.author_date {
+    padding: 8px;
+    border: solid #d9d8d1;
+    border-width: 0px 0px 1px 0px;
+}
+
+.list { text-decoration: none; }
+
+/*.subject, .name { font-weight: bold; }*/
+
+.tags .subject { font-weight: normal; }
+
+.list:hover { text-decoration: underline; }
+
+.text {
+    text-decoration: none;
+    color: #0000cc;
+}
+
+.text:visited {
+    text-decoration: none;
+    color: #880000;
+}
+
+.text:hover {
+    text-decoration: underline;
+    color: #880000;
+}
+
+table {
+    width: 98%;
+    margin: 1% 1%;
+    border-spacing: 0;
+    border: 1px solid #DDD;
+}
+
+.diff_tree { font-family: monospace; }
+
+.combined.diff_tree th { text-align: center; }
+
+.combined.diff_tree td { padding-right: 24px; }
+
+.combined.diff_tree .link,
+.combined.diff_tree .link { padding: 0px 2px; }
+
+.combined.diff_tree .nochange a { color: #6666ff; }
+
+.combined.diff_tree .nochange a:hover,
+.combined.diff_tree .nochange a:visited { color: #d06666; }
+
+.blame { border-collapse: collapse; }
+
+.blame td {
+    padding: 0px 5px;
+    font-size: 100%;
+    vertical-align: top;
+}
+
+th {
+    margin-right: -1px;
+    text-align: left;
+    font-weight: normal;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FCFCFC), to(#DDD));
+    background-image: -webkit-linear-gradient(#FCFCFC 0%, #DDD 100%);
+    background-image: -moz-linear-gradient(#F9F9F9 0%, #DDD 100%);
+    background-image: -o-linear-gradient(#F9F9F9 0%, #DDD 100%);
+    background-image: linear-gradient(#F9F9F9 0%, #DDD 100%);
+    border-right: 1px solid #DDD;
+}
+
+/* do not change row style on hover for 'blame' view */
+tr.light,
+.blame .light:hover { background-color: #ffffff; }
+}
+
+tr.dark,
+.blame .dark:hover { background-color: #f6f6f6; }
+
+/* currently both use the same, but it can change */
+tr.light:hover,
+tr.dark:hover { background-color: #eeeeee; }
+
+/* boundary commits in 'blame' view */
+/* and commits without "previous" */
+tr.boundary .sha1,
+tr.no-previous .linenr { font-weight: bold; }
+
+/* for 'blame_incremental', during processing */
+tr.color1 { background-color: #f6fff6; }
+tr.color2 { background-color: #f6f6ff; }
+tr.color3 { background-color: #fff6f6; }
+
+td, th {
+    padding: 5px 10px;
+    font-size: 1.4em;
+    vertical-align: center;
+}
+
+.link, .selflink {
+    padding: 2px 5px;
+    font-size: 1.2em;
+}
+
+.selflink { padding-right: 0px; }
+
+.sha1 { font-family: monospace; }
+
+.error {
+    color: red;
+    background-color: yellow;
+}
+
+.current_head { text-decoration: underline; }
+
+.category {
+    background-color: #d9d8d1;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    font-weight: bold;
+}
+
+.diff_tree .file_status.new { color: #008000; }
+
+.diff_tree .file_status.deleted { color: #c00000; }
+
+.diff_tree .file_status.moved,
+.diff_tree .file_status.mode_chnge { color: #777777; }
+
+.diff_tree .file_status.copied { color: #70a070; }
+}
+
+/* noage: "No commits" */
+.project_list .noage {
+    color: #808080;
+    font-style: italic;
+}
+
+/* age2: 60*60*24*2 <= age */
+.project_list .age2, .blame .age2 { font-style: italic; }
+
+/* age1: 60*60*2 <= age < 60*60*24*2 */
+.project_list .age1 { color: #2255FF; }
+
+.blame .age1 {
+    color: #2255FF;
+    background: transparent;
+}
+
+/* age0: age < 60*60*2 */
+.project_list .age0 {
+    color: #2255FF;
+    font-weight: bold;
+}
+
+.blame .age0 {
+    color: #2255FF;
+    background: transparent;
+    font-weight: bold;
+}
+
+.pre, .pre, .diff {
+    font-family: monospace;
+    font-size: 12px;
+    white-space: pre;
+}
+
+.mode { font-family: monospace; }
+
+/* progress of blame_interactive */
+div#progress_bar {
+    height: 2px;
+    margin-bottom: -2px;
+    background-color: #d8d9d0;
+}
+div#progress_info {
+    float: right;
+    text-align: right;
+}
+
+/* format of (optional) objects size in 'tree' view */
+.size {
+    font-family: monospace;
+    text-align: right;
+}
+
+/* styling of diffs (patchsets): commitdiff and blobdiff views */
+.diff.header,
+.diff.extended_header { white-space: normal; }
+
+.diff.header {
+    font-weight: bold;
+    background-color: #edece6;
+    margin-top: 4px;
+    padding: 4px 0px 2px 0px;
+    border: solid #d9d8d1;
+    border-width: 1px 0px 1px 0px;
+}
+
+.diff.header .path { text-decoration: underline; }
+
+.diff.extended_header,
+.diff.extended_header .path,
+.diff.extended_header .hash { color: #777777; }
+
+.diff.extended_header .info { color: #b0b0b0; }
+
+.diff.extended_header {
+    background-color: #f6f5ee;
+    padding: 2px 0px 2px 0px;
+}
+
+.diff .list,
+.diff .path,
+.diff .hash {
+    text-decoration: none;
+}
+
+.diff .list:hover,
+.diff .path:hover,
+.diff .hash:hover {
+    text-decoration: underline;
+}
+
+.diff.to_file .path,
+.diff.to_file {
+    color: #007000;
+}
+
+.diff.add {
+    color: #008800;
+}
+
+.diff.from_file .path,
+.diff.from_file {
+    color: #aa0000;
+}
+
+.diff.rem {
+    color: #cc0000;
+}
+
+.diff.chunk_header a,
+.diff.chunk_header {
+    color: #990099;
+}
+
+.diff.chunk_header {
+    border: dotted #ffe0ff;
+    border-width: 1px 0px 0px 0px;
+    margin-top: 2px;
+}
+
+.diff.chunk_header .chunk_info {
+    background-color: #ffeeff;
+}
+
+.diff.chunk_header .section {
+    color: #aa22aa;
+}
+
+.diff.incomplete {
+    color: #cccccc;
+}
+
+.diff.nodifferences {
+    font-weight: bold;
+    color: #600000;
+}
+
+/* side-by-side diff */
+.chunk_block {
+    overflow: hidden;
+}
+
+.chunk_block .old {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+.chunk_block .new {
+    margin-left: 50%;
+    width: 50%;
+}
+
+.chunk_block.rem .old .diff.rem {
+    background-color: #fff5f5;
+}
+.chunk_block.add .new .diff.add {
+    background-color: #f8fff8;
+}
+.chunk_block.chg .diff {
+    background-color: #fffff0;
+}
+.chunk_block.ctx .diff.ctx {
+    color: #404040;
+}
+
+
+.index_include {
+    border: solid #d9d8d1;
+    border-width: 0px 0px 1px;
+    padding: 12px 8px;
+}
+
+.search {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 4px 8px;
+    float: right;
+    top: 56px;
+    right: 12px
+}
+
+.projsearch {
+    text-align: right;
+    font-size: 1.4em;
+    margin-right: 1%;
+}
+
+.linenr {
+    text-align: right;
+}
+
+.linenr {
+    color: #999999;
+    text-decoration: none
+}
+
+.rss_logo {
+    float: right;
+    padding: 0 1%;
+    margin-right: 3px;
+    border: 1px solid #000;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555), to(#000));
+    background-image: -webkit-linear-gradient(#555 0%, #000 100%);
+    background-image: -moz-linear-gradient(#0BF 0%, #09F 100%);
+    background-image: -o-linear-gradient(#0BF 0%, #09F 100%);
+    background-image: linear-gradient(#0BF 0%, #09F 100%);
+    color: #09F;
+    font-size: 1.2em;
+    line-height: 20px;
+    text-align: center;
+}
+
+.rss_logo:hover { background-color: #ee5500; }
+
+.rss_logo:visited { background-color: #FFFFFF !important; }
+
+.rss_logo.generic { background-color: #ff8800; }
+
+.rss_logo.generic:hover { background-color: #ee7700; }
+
+.refs span {
+    padding: 0px 4px;
+    font-size: 70%;
+    font-weight: normal;
+    border: 1px solid;
+    background-color: #ffaaff;
+    border-color: #ffccff #ff00ee #ff00ee #ffccff;
+}
+
+.refs span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.refs span a:hover {
+    text-decoration: underline;
+}
+
+.refs .indirect {
+    font-style: italic;
+}
+
+.refs .ref {
+    background-color: #aaaaff;
+    border-color: #ccccff #0033cc #0033cc #ccccff;
+}
+
+.refs .tag {
+    background-color: #ffffaa;
+    border-color: #ffffcc #ffee00 #ffee00 #ffffcc;
+}
+
+.refs .head {
+    background-color: #aaffaa;
+    border-color: #ccffcc #00cc33 #00cc33 #ccffcc;
+}
+
+.atnight {
+    color: #cc0000;
+}
+
+.match {
+    color: #e00000;
+}
+
+.binary {
+    font-style: italic;
+}
+
+.remote {
+    margin: .5em;
+    border: 1px solid #d9d8d1;
+    display: inline-block;
+}
+
+/* JavaScript-based timezone manipulation */
+
+.popup { /* timezone selection UI */
+    position: absolute;
+    /* "top: 0; right: 0;" would be better, if not for bugs in browsers */
+    top: 0; left: 0;
+    border: 1px solid;
+    padding: 2px;
+    background-color: #f0f0f0;
+    font-style: normal;
+    color: #000000;
+    cursor: auto;
+}
+
+.close-button { /* close timezone selection UI without selecting */
+    /* float doesn't work within absolutely positioned container,
+     * if width of container is not set explicitly */
+    /* float: right; */
+    position: absolute;
+    top: 0px; right: 0px;
+    border:    1px solid green;
+    margin:    1px 1px 1px 1px;
+    padding-bottom: 2px;
+    width:         12px;
+    height:        10px;
+    font-size:    9px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff0f0;
+    cursor: pointer;
+}
+
+
+/* Style definition generated by highlight 2.4.5, http://www.andre-simon.de/ */
+
+/* Highlighting theme definition: */
+
+.num        { color:#2928ff; }
+.esc        { color:#ff00ff; }
+.str        { color:#ff0000; }
+.dstr     { color:#818100; }
+.slc        { color:#838183; font-style:italic; }
+.com        { color:#838183; font-style:italic; }
+.dir        { color:#008200; }
+.sym        { color:#000000; }
+.line     { color:#555555; }
+.kwa        { color:#000000; font-weight:bold; }
+.kwb        { color:#830000; }
+.kwc        { color:#000000; font-weight:bold; }
+.kwd        { color:#010181; }
